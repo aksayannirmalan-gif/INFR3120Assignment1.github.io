@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<html>
-    <link rel="stylesheet" type="text/css" href="index.css">
+<html lang="en">
 
-    <nav>
-        
-        <a href="index.html">home page</a> |
-        <a href="about.html"> About me</a> |
-        <a href="contact.html">Contact</a> |
-        <a href="project.html">Project page</a>
-            <!--href allow for links to be on the page leading to different website or the same one-->
     
-        
-    </nav>
-    <!--navigation allows for website to -->
+    <!--is responsible for importing the css, which is responsible for the GUI of the website-->
+    <link href="full-sized.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and(max-width:480px)">
+
+    
+   
+    <!--navigation holds links to websites and other pages -->
     <head>
         <meta charset="UTF-8">
         <title>INFR 3120 assignment 1</title>
@@ -21,15 +17,46 @@
         <div id="banner">
             <h2>Personal Portfolio | Aksayan Nirmalan</h2>
         </div>
+        <!--div id allows to section parts for there own specific parts serving there own purpose-->
     </head>
+    <!--head is the top of the page where it holds the title and banner of the website-->
     
+
+    <nav>
+        
+        <div id="navigation">
+            
+            <a href="index.html">Homepage</a> |
+            <a href="about.html">About me</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="project.html">Project page</a>
+        <!--<a></a> holds the links and has -->
+        </div>
+        
+    </nav>
     
+
+
+
+    
+    <body>
+        <div id="main">
+            <p>body</p>
+        </div>
+
+    </body>
+    
+
     
 
     <footer>
         <div id="footer">
-            <h3>footer content</h3>
+            
+            <p>Email: aksayan.nirmalan@ontariotechu.net<p>
+            <p>© aksayan nirmalan</p>
         </div>
+        
     </footer>
+    <!--the footer is located at the bottom of the page-->
 
 </html>

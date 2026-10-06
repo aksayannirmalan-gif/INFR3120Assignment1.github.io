@@ -1,54 +1,76 @@
 <!DOCTYPE html>
-
-<nav>
-    <a href="index.html">Homepage</a> |
-    <a href="about.html">About me</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="project.html">Project page</a>
-</nav>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="full-sized.css">
+    
+    <title>Contact Form</title>
+
+
+    
+</head>
+
+<body>
     <div id="banner">
         <h1>Contact form</h1>
     </div>
-</head>
+    <nav>
+        <div id="navigation">
+            <a href="index.html">Homepage</a> |
+            <a href="about.html">About me</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="project.html">Project page</a>
+            <!--<a></a> holds the links and has -->
+        </div>
+        
+    </nav>
 
 
-<body>
-    <div id="contact">
+    <div id="main">
         <form action="mailto:aksayan.nirmalan@ontariotechu.net" method="post" enctype="text/plain" name="form">
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" size="32" placeholder="Enter first name" required>
+        <!--the label put a label to indicate to the user what they need to input
+        and input is where the user types out the information requested. the 
+        place holder also is used to indicate to the user -->
+            </p>
+            <p>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" size="32" placeholder="Enter last name" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" id="email" size="32" placeholder="Enter email" required>
+            </p>
 
-        <p>
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" size="32" placeholder="Enter first name"required>
-        </p>
-        <p>
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" size="32" placeholder="Enter last name"required>
-        </p>
-        <p>
-            <label for="email">Email</label>
-            <input type="text" id="email" size="32" placeholder="Enter email"required>
-        </p>
+            <p>
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" id="phonenumber" size="32" placeholder="Enter phone number">
+            </p>
 
-        <p>
-            <label for="phonenumber">Phone Number</label>
-            <input type="tel" id="phonenumber" size="32" placeholder="Enter phone number">
-        </p>
-
-        <p>
-            <label for="comment">Comment</label>
-            <br>
-            <textarea name="comments" col="60" rows="4"></textarea>
-        </p>
-        <br><br>
-        <input type="submit" value="Submit Form"></input>
+            <p>
+                <label for="comments">Comment</label>
+                <br>
+                <textarea name="comments" cols="60" rows="4"></textarea>
+            </p>
+            <br><br>
+            <input type="submit" value="Submit Form">
 
         </form>
 
-    </div>
-
-    
+        <footer>
+            <p>
+                Email: <a href="mailto:aksayan.nirmalan@ontariotechu.net">
+                    aksayan.nirmalan@ontariotechu.net</a>
+            </p>
+            <p>© aksayan nirmalan</p>
         
+        
+        </footer>
+        <!--the footer is located at the bottom of the page-->
+
+
+    </div>    
 </body>
+</html>
