@@ -24,7 +24,7 @@ header
 article
 {
     width:100%;
-    height:500px;
+    height:600px;
 }
 
 #contact
@@ -58,7 +58,7 @@ img
 #wrapper
 {
     width: 100%;
-    height: 800px;
+    height: 900px;
     
     
 }
@@ -72,6 +72,11 @@ img
     margin-top:-250px;
 }
 
+#video
+{
+    margin-top:300px;
+    
+}
 
 
 }
