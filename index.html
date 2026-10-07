@@ -1,62 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
+   
     
-    <!--is responsible for importing the css, which is responsible for the GUI of the website-->
+<head>  
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
     <link href="full-sized.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
     <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and(max-width:480px)">
-
-    
-   
-    <!--navigation holds links to websites and other pages -->
-    <head>
-        <meta charset="UTF-8">
-        <title>INFR 3120 assignment 1</title>
-        <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
-        
-        <div id="banner">
-            <h2>Personal Portfolio | Aksayan Nirmalan</h2>
-        </div>
-        <!--div id allows to section parts for there own specific parts serving there own purpose-->
-    </head>
-    <!--head is the top of the page where it holds the title and banner of the website-->
+    <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and(min-width:481px) and (max-width:960)">
+    <!--is responsible for importing the css, which is responsible for the GUI of the website-->
+    <title>INFR 3120 assignment 1</title>
+</head>
+    <!--head is responsible of keeping meta data, which is data what isnt visible to the
+    directly on the website-->
     
 
-    <nav>
+
+    
+<body>
+    <div id="wrapper">
+        <!--div id wrapper is responsible to store data-->
+        <header>
+            <h1>Personal Portfolio | Aksayan Nirmalan</h1>
+            <br><br>
+            <nav>
+                <h2>
+                    <a href="index.html">Homepage</a> |
+                    <a href="about.html">About me</a> |
+                    <a href="contact.html">Contact</a> |
+                    <a href="project.html">Project page</a>
+                <!--<a></a> holds the links and has -->
+                </h2>
         
-        <div id="navigation">
+            </nav>   
+            <!--nav is responsible to hold all links navigating to different 
+            part of a page or to a different page entirley-->
+
+        </header>
+       
+
+        
+
+        <footer>
+            <div id="footer">
             
-            <a href="index.html">Homepage</a> |
-            <a href="about.html">About me</a> |
-            <a href="contact.html">Contact</a> |
-            <a href="project.html">Project page</a>
-        <!--<a></a> holds the links and has -->
-        </div>
+                <p>Email: aksayan.nirmalan@ontariotechu.net<p>
+                <p>© aksayan nirmalan</p>
+            </div>
         
-    </nav>
-    
-
-
-
-    
-    <body>
-        <div id="main">
-            <p>body</p>
-        </div>
-
-    </body>
-    
-
-    
-
-    <footer>
-        <div id="footer">
-            
-            <p>Email: aksayan.nirmalan@ontariotechu.net<p>
-            <p>© aksayan nirmalan</p>
-        </div>
-        
-    </footer>
+        </footer>
     <!--the footer is located at the bottom of the page-->
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+    
+
+    
+
+    
 
 </html>
