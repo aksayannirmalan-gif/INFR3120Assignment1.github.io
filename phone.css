@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@media only screen and (max-width: 480px){
 
 body
 {
@@ -11,7 +11,7 @@ body
 header
 {
     width:100%;
-    height: 200px;
+    height: 100px;
     Background: linear-gradient(to left, #00deff , #ff2100 );
     text-align: center;
 
@@ -45,3 +45,4 @@ img
     height: 50px;
 }
 
+}

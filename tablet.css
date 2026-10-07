@@ -1,4 +1,5 @@
-@charset "UTF-8";
+@media only screen and (min-width: 481px) and (max-width:960px){
+
 
 body
 {
@@ -45,3 +46,4 @@ img
     height: 461px;
 }
 
+}
