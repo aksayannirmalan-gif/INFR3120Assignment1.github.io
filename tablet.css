@@ -66,4 +66,12 @@ img
     height: 460px;
 }
 
+#right-column
+{
+    margin-left:200px;
+    margin-top:-200px;
+}
+
+
+
 }

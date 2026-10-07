@@ -14,7 +14,7 @@ body
 header
 {
     width:100%;
-    height: 600px;
+    height: 400px;
     Background: linear-gradient(to left, #00deff , #ff2100 );
     text-align: center;
 
@@ -23,7 +23,7 @@ header
 article
 {
     width:100%;
-    height:400px;
+    height:800px;
 }
 
 #contact
@@ -65,9 +65,11 @@ img
     margin-right:auto
 }
 
-#right-coloumn
+#right-column
 {
-    margin-left:auto
+    margin-left:100px;
+    margin-top:-100px;
 }
+
 
 }

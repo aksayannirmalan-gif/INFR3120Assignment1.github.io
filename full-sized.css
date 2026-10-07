@@ -63,14 +63,13 @@ img
     
 }
 
-#left-coloumn
-{
-    margin-right:auto
-}
 
-#right-coloumn
+
+
+#right-column
 {
-    margin-left:auto
+    margin-left:300px;
+    margin-top:-250px;
 }
 
 
