@@ -55,12 +55,16 @@
 
             <div id="video">
                 <h3>Short introduction</h3>
-                <video controls width="400" height="250" poster="poster.jpg"
-              
+                <video 
+                id="vidplay"
+                controls width="400" height="250" poster="poster.jpg" preload="auto"
+                
                 autoplay muted>
                     <source src="video.mp4" type="video/mp4">
+                    <source src="video.ogv" type="video/ogg">
                 </video>
-
+                <br><br>
+                <button onclick="playpause()">Play/Pause</button>
             </div>
             
        
@@ -95,3 +99,12 @@
 
 
 </html>
+
+<script>
+    var myVideo=document.getElementById("vidplay");
+    function playpause()
+    {
+        if (myVideo.paused) myVideo.play();
+        else myVideo.pause();
+    }
+</script>

@@ -65,7 +65,14 @@ img
 #right-column
 {
     margin-left:125px;
-    margin-top:-120px;
+    margin-top:-140px;
+}
+
+#video
+{
+    margin-left:5px;
+    margin-top:200px;
+    
 }
 
 
