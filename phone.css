@@ -16,7 +16,19 @@ header
     text-align: center;
 
 }
-#projecttitle
+
+article
+{
+    width:100%;
+    height:400px;
+}
+
+#contact
+{
+    width:100%;
+    height:400px;
+}
+footer
 {
     background: linear-gradient(-45deg, #00deff, #ff2100)
     
