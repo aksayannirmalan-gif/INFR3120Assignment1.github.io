@@ -8,6 +8,7 @@ body
     color: black;
     margin:0px;
     padding:5px;
+    background: linear-gradient(to left, #00deff, #099078);
 }
 
 
@@ -29,7 +30,7 @@ article
 #projecttitle
 {
     width:95%;
-    height:500px;
+    height:1000px;
     padding:5px;
     margin:0px;
 }
@@ -37,11 +38,16 @@ article
 #contact
 {
     width:100%;
-    height:400px;
+    height:1000px;
     padding:5px;
     margin:0px;
 }
-footer
+
+/*article, projecttile, and contact have to
+ be in the same height becauce for the footer 
+ might go higher up in the page causing inconsistenceys */
+
+ footer
 {
     background: linear-gradient(-45deg, #00deff, #099078);
     width:100%;
@@ -69,6 +75,7 @@ img
 {
     width: 100%;
     height: 1200px;
+    background-color:#F9ECE5;
 }
 
 
