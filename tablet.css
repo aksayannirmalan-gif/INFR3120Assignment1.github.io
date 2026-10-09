@@ -74,10 +74,11 @@ img
 
 #wrapper
 {
-    width: 100%;
+    width: 90%;
     height: 1000px;
-    padding:0px;
-    margin:0px;
+    
+    margin-right:auto;
+    margin-left:auto;
     background-color:#F9ECE5;
 }
 
@@ -85,6 +86,8 @@ img
 {
     margin-left:200px;
     margin-top:-200px;
+    margin-right:20px;
+    /*padding:20px;*/
 }
 
 #video
