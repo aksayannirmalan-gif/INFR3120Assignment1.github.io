@@ -27,8 +27,8 @@ article
 {
     width:100%;
     height:700px;
-    margin-right:0px;
-    padding:20px;
+    /*margin-right:0px;
+    padding:20px;*/
 }
 
 #projecttitle
@@ -43,7 +43,8 @@ article
 {
     width:100%;
     height:700px;
-    margin:0px;
+    margin-left:auto;
+    margin-right:auto;
     padding:10px;
 }
 
